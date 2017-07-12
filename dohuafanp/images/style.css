@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.animation{
+    width: 200px;
+    height: 270px;
+    margin: 0 auto;
+    perspective: 1000px;
+    /*perspective-origin: center 300px;*/
+}
+.animation:hover .flop{
+    transform: rotateY(180deg)
+}
+.flop{
+    width: inherit;
+    height:inherit;
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+    transition: .6s;
+    transform-style: preserve-3d;
+}
+.positive, .negative{
+height: inherit;
+width: inherit;
+position: absolute;
+top: 0;
+left: 0;
+}
+.positive{
+    background: #169;
+    color: #f12;
+    transform: rotateY(0)
+}
+.negative{
+    background: #885;
+    color:#f24;
+    transform: rotateY(180deg)
+}
