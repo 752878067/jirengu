@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;}
+    html{
+        height: 100%;
+    }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    
+    background: url(lol.jpg) no-repeat center;
+    background-size: 100%;
+}
+main{
+    height: 100%;
+}
+.perspective-origin{
+    perspective: 1000px;
+    perspective-origin: center 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+    padding-top: 100px;
+}
+.container{
+    width: 170px;
+    height: 100px;
+    position: relative;
+    transition: .6s;
+    transform-style: preserve-3d;
+    animation:fzlo 30s linear infinite;
+}
+.container:hover{
+    animation-play-state: paused;
+}
+.lol{
+    width:inherit;
+    height: inherit;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes fzlo {
+    form {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+.lol:nth-child(1){
+    transform: rotateY(0) translateZ(330px);
+}
+.lol:nth-child(2){
+    transform: rotateY(36deg) translateZ(330px);
+}
+.lol:nth-child(3){
+    transform: rotateY(72deg) translateZ(330px);
+}
+.lol:nth-child(4){
+    transform: rotateY(108deg) translateZ(330px);
+}
+
+.lol:nth-child(5){
+    transform: rotateY(144deg) translateZ(330px);
+}
+
+.lol:nth-child(6){
+    transform: rotateY(180deg) translateZ(330px);
+}
+
+.lol:nth-child(7){
+    transform: rotateY(216deg) translateZ(330px);
+}
+
+.lol:nth-child(8){
+    transform: rotateY(252deg) translateZ(330px);
+}
+
+.lol:nth-child(9){
+    transform: rotateY(288deg) translateZ(330px);
+}
+
+.lol:nth-child(10){
+    transform: rotateY(326deg) translateZ(330px);
+}
+
+
+
+.jess{
+    background: url(1.jpg);
+    background-size: 170px 100px;
+}
+.jess2{
+    background: url(2.jpg);
+    background-size: 170px 100px;
+}
+.jess3{
+    background: url(3.jpg);
+    background-size: 170px 100px;
+}
+.jess4{
+    background: url(4.jpg);
+    background-size: 170px 100px;
+}
+.jess5{
+    background: url(5.jpg);
+    background-size: 170px 100px;
+}
+.arthorn{
+    background: url(6.jpg);
+    background-size: 170px 100px;
+}
+.arthorn2{
+    background: url(7.jpg);
+    background-size: 170px 100px;
+}
+.arthorn3{
+    background: url(8.jpg);
+    background-size: 170px 100px;
+}
+.arthorn4{
+    background: url(9.jpg);
+    background-size: 170px 100px;
+}
+.arthorn5{
+    background: url(10.jpg);
+    background-size: 170px 100px;
+}
