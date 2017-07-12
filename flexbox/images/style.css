@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mian{
+    display: flex;
+    text-align: center;
+}
+.mian .item{
+    flex: 1;
+}
+
+
+
+
+.one{
+    background: #ff1;
+}
+.two{
+    background: #f55;
+}
+.three{
+    background: #e15;
+}
+.four{
+    background: #f95;
+}
+.five{
+    background: #d18;
+}
+.six{
+    background: #b11;
+}
+.seven{
+    background: #d88;
+}
+.eight{
+    background: #d61;
+}
+.nine{
+    background: #a19;
+}
+.ten{
+    background: #a89;
+}
+.eleven{
+    background: #842;
+}
+.twelve{
+    background: #b41;
+}
