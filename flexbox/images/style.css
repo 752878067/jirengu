@@ -7,9 +7,10 @@
 .mian{
     display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-.mian .item{
+.item{
     flex: 1;
     font-size: 30px;
 }
@@ -19,37 +20,64 @@
 
 .one{
     background: #ff1;
+    font-size: 50px;
 }
 .two{
     background: #f55;
+        font-size: 100px;
 }
 .three{
     background: #e15;
+        font-size: 60px;
 }
 .four{
     background: #f95;
+        font-size: 43px;
 }
 .five{
     background: #d18;
+        font-size: 110px;
 }
 .six{
     background: #b11;
+        font-size: 80px;
 }
 .seven{
     background: #d88;
+      font-size: 80px;
 }
 .eight{
     background: #d61;
+      font-size: 40px;
 }
 .nine{
     background: #a19;
+      font-size: 80px;
 }
 .ten{
     background: #a89;
+      font-size: 230px;
 }
 .eleven{
     background: #842;
+      font-size: 90px;
 }
 .twelve{
     background: #b41;
+      font-size: 60px;
+}
+@media (max-width:600px){
+    .mian{
+        flex-direction: column;
+        transition: .6s;
+        margin: 0 20px;
+    }
+
+    .ten{
+        order: -1;
+    }
+    .mian .ten{
+        font-size: 330px;
+    }
+
 }
