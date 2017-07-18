@@ -8,16 +8,15 @@
     display: flex;
     text-align: center;
     flex-direction: row;
-    flex-wrap: wrap;
 }
-.item{
+.mian .item{
     flex: 1;
     font-size: 30px;
 }
 
 
 
-
+    
 .one{
     background: #ff1;
     font-size: 50px;
@@ -66,6 +65,7 @@
     background: #b41;
       font-size: 60px;
 }
+
 @media (max-width:600px){
     .mian{
         flex-direction: column;
@@ -79,5 +79,4 @@
     .mian .ten{
         font-size: 330px;
     }
-
 }
